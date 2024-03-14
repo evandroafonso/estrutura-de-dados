@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class BuscaLinear {
 
     //Vetor de String e Busca Linear
     public static void main(String[] args) {
@@ -36,14 +36,9 @@ public class Main {
             }
         }
 
-        if(!siglaEncontrada){
+        if(!siglaEncontrada) {
             System.out.println("o algoritmo buscou " + contador + " vezes e não encontrou o elemento.");
-            System.out.println("Sigla "+ siglaBusca + " não encontrada, tente novamente!");
+            System.out.println("Sigla " + siglaBusca + " não encontrada, tente novamente!");
         }
-
-
-
-
-
     }
 }
