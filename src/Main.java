@@ -1,15 +1,49 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.util.Scanner;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+public class Main {
+
+    //Vetor de String e Busca Linear
+    public static void main(String[] args) {
+
+        String[] estados = new String[10];
+        estados[0] = "AC";
+        estados[1] = "BA";
+        estados[2] = "CE";
+        estados[3] = "DF";
+        estados[4] = "AM";
+        estados[5] = "AP";
+        estados[6] = "PB";
+        estados[7] = "RN";
+        estados[8] = "MS";
+        estados[9] = "SP";
+
+        Scanner leitor = new Scanner(System.in);
+        System.out.println("Qual sigla de estado quer buscar? ");
+        String siglaBusca = leitor.nextLine();
+
+
+        boolean siglaEncontrada = false;
+        int contador = 0;
+
+        //busca linear
+        for(int i = 0; i < estados.length; i++){
+            contador++;
+            if(estados[i].equals(siglaBusca)) {
+                siglaEncontrada = true;
+                System.out.println("Estado " + siglaBusca + " encontrado");
+                System.out.println("o algoritmo buscou " + contador + " vezes até encontrar o elemento.");
+                break;
+            }
         }
+
+        if(!siglaEncontrada){
+            System.out.println("o algoritmo buscou " + contador + " vezes e não encontrou o elemento.");
+            System.out.println("Sigla "+ siglaBusca + " não encontrada, tente novamente!");
+        }
+
+
+
+
+
     }
 }
