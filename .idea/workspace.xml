@@ -4,24 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a28bbd53-7d9b-44c0-946c-60c21712ce1b" name="Changes" comment="adiciona algoritmo de busca linear">
+    <list default="true" id="a28bbd53-7d9b-44c0-946c-60c21712ce1b" name="Changes" comment="Ajuste método de busca linear">
+      <change afterPath="$PROJECT_DIR$/src/listaLigada/ListaLigada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listaLigada/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listaLigada/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuscaLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuscaLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buscaLigada/BuscaLinear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "evandroafonso"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;evandroafonso&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -30,9 +40,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dhGXyzI6EjBN3P2yqVPw07T3DE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BuscaLinear.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,12 +92,29 @@
       <option name="project" value="LOCAL" />
       <updated>1710454874662</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajuste método de busca linear">
+      <option name="closed" value="true" />
+      <created>1710456057757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710456057757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajuste método de busca linear">
+      <option name="closed" value="true" />
+      <created>1710456108802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710456108802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajuste" />
     <MESSAGE value="adiciona algoritmo de busca linear" />
-    <option name="LAST_COMMIT_MESSAGE" value="adiciona algoritmo de busca linear" />
+    <MESSAGE value="Ajuste método de busca linear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste método de busca linear" />
   </component>
 </project>

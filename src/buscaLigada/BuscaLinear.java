@@ -1,3 +1,5 @@
+package buscaLigada;
+
 import java.util.Scanner;
 
 public class BuscaLinear {
